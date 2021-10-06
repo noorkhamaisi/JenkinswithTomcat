@@ -1,0 +1,14 @@
+Jenkins With Tomcat
+
+
+
+1- Install Tomcat 9 on a server (new Instance) with Java 11
+
+2- Create a new Build Job to build the https://github.com/jleetutorial/maven-project.git
+
+3- Store the Archive file on Jenkins 
+
+4- Create a second job called “deploy” to deploy the war file artifact on Tomcat
+
+
+5- Please convert the Jobs into new Jenkins Pipelines using Jenkins DSL
